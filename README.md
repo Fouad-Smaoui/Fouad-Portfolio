@@ -5,9 +5,6 @@
 # *Domain:* https://frobotix.app/
 ![My Image](portfolio.png)
 
-
-<img width="1000" alt="image" src="https://github.com/Fouad-Smaoui/Fouad-Portfolio//blob/main/portfolio.pngfolio.png">
-
 ## `Google Firebase - Web Hosting Provider`
 
 # SEO (Search Engine Optimization) Practices 
