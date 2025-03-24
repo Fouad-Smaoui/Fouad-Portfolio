@@ -3,7 +3,7 @@
 ## Stack: React, Vite, Typescript, Tailwind
 
 # *Domain:* https://frobotix.app/
-<img width="1281" alt="image" src="https://github.com/Fouad-Smaoui/Fouad-Portfolio//blob/main/portfolio.pngfolio.png">
+<img width="1000" alt="image" src="https://github.com/Fouad-Smaoui/Fouad-Portfolio//blob/main/portfolio.pngfolio.png">
 
 ## `Google Firebase - Web Hosting Provider`
 
