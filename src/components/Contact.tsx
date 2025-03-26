@@ -35,8 +35,8 @@ export default function Contact() {
     await new Promise((r) => setTimeout(r, 500));
     emailjs
       .send(
-        "service_79nih4o",
-        "template_7h4xuas",
+        "service_2zlmn5m",
+        "template_jzwfk4o",
         {
           from_name: name,
           message: message,
