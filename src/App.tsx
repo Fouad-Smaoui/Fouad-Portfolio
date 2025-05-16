@@ -24,7 +24,7 @@ const project1: Types.Project = {
     "In my vision of the future, robots aren’t just tools, they’re intelligent collaborators that transform industries through the power of physical AI, and it’s the future I’m shaping.This revolutionary mobile manipulator grows smarter through reinforcement learning, improving its efficiency in object manipulation, navigation, and assembly. It merges ROS2, physical AI, and swarm robotics, it’s part of a network of robots that work together, share data, and adapt to their environment.",
   image: gainzUrl,
   github: "https://github.com/Fouad-Smaoui/Mobile-Manipulator-Robot",
-  demo: "https://www.youtube.com/watch?v=iAC8FYCfB2A",
+  demo: "https://github.com/Fouad-Smaoui/Mobile-Manipulator-Robot",
 };
 
 const project2: Types.Project = {
