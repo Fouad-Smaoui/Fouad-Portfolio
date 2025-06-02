@@ -9,7 +9,7 @@ import * as Types from "./types";
 import terpExchangeUrl from "./assets/mini-lab.jpg";
 import sortingUrl from "./assets/flex.jpg";
 import gainzUrl from "./assets/mobile_manipulator_urdf_rviz.png";
-import OrentitImage from "./assets/OrentitImage.png";
+import OrentitImage from "./assets/orentit.png";
 import VirtualTryOn from "./assets/virtualtryon.webp";
 import Drone from "./assets/Drone.webp";
 
