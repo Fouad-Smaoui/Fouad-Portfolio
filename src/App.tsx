@@ -9,11 +9,24 @@ import * as Types from "./types";
 import terpExchangeUrl from "./assets/mini-lab.jpg";
 import sortingUrl from "./assets/flex.jpg";
 import gainzUrl from "./assets/mobile_manipulator_urdf_rviz.png";
+import OrentitImage from "./assets/OrentitImage.png";
+import VirtualTryOn from "./assets/virtualtryon.webp";
+import Drone from "./assets/Drone.webp";
+
 // import comingSoonUrl from "./assets/comingSoon.png";
 
 // import { useRef } from "react";
 
 const project1: Types.Project = {
+  title: "Drone Precision Landing System",
+  techStack: ["Simulink", "Python"],
+  description:
+    "Design of an autonomous drone landing system on moving vehicles, combining robust engineering and advanced AI to address complex navigation challenges in real-world conditions.",
+  image: Drone,
+  github: "https://github.com/Fouad-Smaoui/Drone-Precision-Landing-Control-System",
+  demo: "https://github.com/Fouad-Smaoui/Drone-Precision-Landing-Control-System",
+};
+const project2: Types.Project = {
   title: "ROS 2 Industrial Mobile Manipulator",
   techStack: [
     "ROS 2",
@@ -27,7 +40,17 @@ const project1: Types.Project = {
   demo: "https://github.com/Fouad-Smaoui/Mobile-Manipulator-Robot",
 };
 
-const project2: Types.Project = {
+const project3: Types.Project = {
+  title: "ORentit",
+  techStack: ["Python", "Docker", "Hugging Face"],
+  description:
+    "Launched a next-generation AI-driven rental platform with semantic search, enabling intent-based item discovery, reducing friction in the search process, and adapting to evolving user behavior.",
+  image: OrentitImage,
+  github: "https://github.com/Fouad-Smaoui/ORentit",
+  demo: "https://o-rentit.vercel.app/",
+};
+
+const project4: Types.Project = {
   title: "Flex",
   techStack: ["C++", "Matlab", "OpenCV"],
   description:
@@ -37,7 +60,7 @@ const project2: Types.Project = {
   demo: "https://youtu.be/Me2IMcmEs_o",
 };
 
-const project3: Types.Project = {
+const project5: Types.Project = {
   title: "Minilab",
   techStack: ["ROS", "Python"],
   description:
@@ -47,7 +70,20 @@ const project3: Types.Project = {
   demo: "https://www.youtube.com/shorts/EluJY0yDq7U?feature=share",
 };
 
-const projects: Types.Project[] = [project1, project2, project3];
+const project6: Types.Project = {
+  title: "TinySight",
+  techStack: ["Python", "OpenCV", "C++"],
+  description:
+    "Created a next-generation, customizable solution combining facial detection, virtual try-on, and facial landmark tracking to deliver innovative robotic vision across diverse applications.",
+  image: VirtualTryOn,
+  github: "https://github.com/Fouad-Smaoui/TinyML-Driven-Embedded-AI-Vision",
+  demo: "https://github.com/Fouad-Smaoui/TinyML-Driven-Embedded-AI-Vision",
+};
+
+
+
+
+const projects: Types.Project[] = [project1, project2, project3, project4, project5,project6 ];
 
 function App() {
   // const contactRef = useRef<HTMLElement | null>(null);
