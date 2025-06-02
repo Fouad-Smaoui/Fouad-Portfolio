@@ -8,7 +8,7 @@ import Contact from "./components/Contact";
 import * as Types from "./types";
 import terpExchangeUrl from "./assets/mini-lab.jpg";
 import sortingUrl from "./assets/flex.jpg";
-import gainzUrl from "./assets/mobile_manipulator_urdf_rviz.png";
+import MobileManipulator from "./assets/mobile_manipulator_urdf_rviz.png";
 import OrentitImage from "./assets/orentit.png";
 import VirtualTryOn from "./assets/virtualtryon.webp";
 import Drone from "./assets/Drone.webp";
@@ -19,7 +19,7 @@ import Drone from "./assets/Drone.webp";
 
 const project1: Types.Project = {
   title: "Drone Precision Landing System",
-  techStack: ["Simulink", "Python"],
+  techStack: ["Python", "Matlab"],
   description:
     "Design of an autonomous drone landing system on moving vehicles, combining robust engineering and advanced AI to address complex navigation challenges in real-world conditions.",
   image: Drone,
@@ -35,7 +35,7 @@ const project2: Types.Project = {
   ],
   description:
     "In my vision of the future, robots aren’t just tools, they’re intelligent collaborators that transform industries through the power of physical AI, and it’s the future I’m shaping.This revolutionary mobile manipulator grows smarter through reinforcement learning, improving its efficiency in object manipulation, navigation, and assembly. It merges ROS2, physical AI, and swarm robotics, it’s part of a network of robots that work together, share data, and adapt to their environment.",
-  image: gainzUrl,
+  image: MobileManipulator,
   github: "https://github.com/Fouad-Smaoui/Mobile-Manipulator-Robot",
   demo: "https://github.com/Fouad-Smaoui/Mobile-Manipulator-Robot",
 };
@@ -52,7 +52,7 @@ const project3: Types.Project = {
 
 const project4: Types.Project = {
   title: "Flex",
-  techStack: ["C++", "Matlab", "OpenCV"],
+  techStack: ["C++", "OpenCV", "Simulink"],
   description:
     "Designed and developed a versatile two-wheeled bipedal robot, inspired by my education at Arts et Métiers ParisTech, for inspection and transportation tasks, driving innovation in next-generation robotics and empowering businesses to stay competitive in the emerging market.",
   image: sortingUrl,
@@ -62,7 +62,7 @@ const project4: Types.Project = {
 
 const project5: Types.Project = {
   title: "Minilab",
-  techStack: ["ROS", "Python"],
+  techStack: ["ROS", "Python", "Gazebo"],
   description:
     "Developed an autonomous navigation system, enabling mobile robots to autonomously select optimal routes and avoid obstacles, driving physical AI innovation for more efficient task completion and improved operational collaboration.",
   image: terpExchangeUrl,
@@ -91,7 +91,7 @@ function App() {
   // const handleScroll = () => {
   //   contactRef.current?.scrollIntoView({ behavior: "smooth" });
   // };
-
+  
   return (
     <>
       <Navbar />
@@ -100,6 +100,9 @@ function App() {
         <div className="space-y-20 lg:space-y-28">
           <Experience />
           <Tools />
+          <h2 className="mb-4 text-center text-5xl font-bold tracking-tight text-white">
+        Projects
+      </h2>
         </div>
         <div id="projects" className="space-y-36 lg:space-y-44">
           {projects.map((project, index) => (
