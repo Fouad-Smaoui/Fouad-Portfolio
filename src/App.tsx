@@ -21,7 +21,7 @@ const project1: Types.Project = {
   title: "Drone Precision Landing System",
   techStack: ["Python", "Matlab"],
   description:
-    "Design of an autonomous drone landing system on moving vehicles, combining robust engineering and advanced AI to address complex navigation challenges in real-world conditions.",
+    "Architected a novel autonomous drone landing system on moving vehicles, leveraging robust engineering and Physical AI to enable advanced navigation in complex real-world conditions. ",
   image: Drone,
   github: "https://github.com/Fouad-Smaoui/Drone-Precision-Landing-Control-System",
   demo: "https://github.com/Fouad-Smaoui/Drone-Precision-Landing-Control-System",
