@@ -12,12 +12,31 @@ import MobileManipulator from "./assets/mobile_manipulator_urdf_rviz.png";
 import OrentitImage from "./assets/orentit.png";
 import VirtualTryOn from "./assets/virtualtryon.webp";
 import Drone from "./assets/Drone.webp";
+import OrcheStudio from "./assets/OrcheStudio.png";
+import ClairOps from "./assets/ClairOps.png";
 
 // import comingSoonUrl from "./assets/comingSoon.png";
 
 // import { useRef } from "react";
-
 const project1: Types.Project = {
+  title: "ClairOps",
+  techStack: ["Python","RAG","LangChain"],
+  description:
+    "As Founding Engineer, developed a next-gen facility management platform with autonomous AI agents and RAG intelligence, empowering field teams, business leads, and operations managers. ",
+  image: ClairOps,
+  github: "https://github.com/Fouad-Smaoui/ClairOps",
+  demo: "https://clairopsapp.vercel.app/",
+};
+const project2: Types.Project = {
+  title: "OrcheStudio",
+  techStack: ["Python", "ONNX","LLMs"],
+  description:
+    "Automated end-to-end business operations by deploying AI agents, streamlining multimedia production pipelines, enhancing efficiency and reducing manual workload. ",
+  image: OrcheStudio,
+  github: "https://github.com/Fouad-Smaoui/OrchestStudio",
+  demo: "https://www.youtube.com/@InnovationUnburied",
+};
+const project3: Types.Project = {
   title: "Drone Precision Landing System",
   techStack: ["Python", "Matlab"],
   description:
@@ -26,7 +45,7 @@ const project1: Types.Project = {
   github: "https://github.com/Fouad-Smaoui/Drone-Precision-Landing-Control-System",
   demo: "https://github.com/Fouad-Smaoui/Drone-Precision-Landing-Control-System",
 };
-const project2: Types.Project = {
+const project4: Types.Project = {
   title: "ROS 2 Industrial Mobile Manipulator",
   techStack: [
     "ROS 2",
@@ -39,8 +58,7 @@ const project2: Types.Project = {
   github: "https://github.com/Fouad-Smaoui/Mobile-Manipulator-Robot",
   demo: "https://github.com/Fouad-Smaoui/Mobile-Manipulator-Robot",
 };
-
-const project3: Types.Project = {
+const project5: Types.Project = {
   title: "ORentit",
   techStack: ["Python", "Docker", "Hugging Face"],
   description:
@@ -49,8 +67,7 @@ const project3: Types.Project = {
   github: "https://github.com/Fouad-Smaoui/ORentit",
   demo: "https://o-rentit.vercel.app/",
 };
-
-const project4: Types.Project = {
+const project6: Types.Project = {
   title: "Flex",
   techStack: ["C++", "OpenCV", "Simulink"],
   description:
@@ -59,8 +76,7 @@ const project4: Types.Project = {
   github: "https://github.com/Fouad-Smaoui/Flex-MultiModal-Balancing-Robot",
   demo: "https://youtu.be/Me2IMcmEs_o",
 };
-
-const project5: Types.Project = {
+const project7: Types.Project = {
   title: "Minilab",
   techStack: ["ROS", "Python", "Gazebo"],
   description:
@@ -70,7 +86,7 @@ const project5: Types.Project = {
   demo: "https://www.youtube.com/shorts/EluJY0yDq7U?feature=share",
 };
 
-const project6: Types.Project = {
+const project8: Types.Project = {
   title: "TinySight",
   techStack: ["Python", "OpenCV", "C++"],
   description:
@@ -83,7 +99,7 @@ const project6: Types.Project = {
 
 
 
-const projects: Types.Project[] = [project1, project2, project3, project4, project5,project6 ];
+const projects: Types.Project[] = [project1, project2, project3, project4, project5, project6,project7, project8 ];
 
 function App() {
   // const contactRef = useRef<HTMLElement | null>(null);
