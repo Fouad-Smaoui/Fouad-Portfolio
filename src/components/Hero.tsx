@@ -1,6 +1,6 @@
 import RadialGradient from "./RadialGradient";
 import { scrollTo } from "./util";
-import frobotixUrl from "../assets//Fouad.png";
+import frobotixUrl from "../assets//Fouadd.jpg";
 import {  motion } from 'framer-motion';
 
 function Hero() {
