@@ -64,7 +64,7 @@ function Hero() {
               className="mb-10 mt-6 text-xl leading-8 text-gray-300"
               variants={itemVariants}
             >
-              I'm a <strong>Robotics Software Engineer</strong> with a Master Degree in 
+              I'm an <strong>AI Robotics Software Engineer</strong> with a Master Degree in 
               Advanced Systems & Robotics from Arts et Métiers ParisTech.
               <br />
               Dive into my latest experience, projects, and education, where I
