@@ -22,7 +22,7 @@ const project1: Types.Project = {
   title: "DocToSOP",
   techStack: ["Python","RAG","LangChain"],
   description:
-    "As Founding Engineer, Engineered a RAG-based AI platform that transforms unstructured facility management documents into Standard Operating Procedures (SOPs), improving operational consistency and knowledge accessibility.",
+    "As Founding Engineer, Orchestrated a RAG-based AI platform that transforms unstructured facility management documents into Standard Operating Procedures (SOPs), improving operational consistency and knowledge accessibility.",
   image: DocToSOP,
   github: "https://github.com/Fouad-Smaoui/DocToSOP",
   demo: "https://doc-to-sop.vercel.app/",
