@@ -13,28 +13,29 @@ import OrentitImage from "./assets/orentit.png";
 import VirtualTryOn from "./assets/virtualtryon.webp";
 import Drone from "./assets/Drone.webp";
 import OrcheStudio from "./assets/OrcheStudio.png";
-import ClairOps from "./assets/ClairOps.png";
+import DocToSOP from "./assets/DOCToSOP.png";
+import MobileManipulatorDemo from "./assets/mobile_manipulator_demo.gif";
 
 // import comingSoonUrl from "./assets/comingSoon.png";
 
 // import { useRef } from "react";
 const project1: Types.Project = {
-  title: "ClairOps",
+  title: "DocToSOP",
   techStack: ["Python","RAG","LangChain"],
   description:
-    "As Founding Engineer, developed a next-gen facility management platform with autonomous AI agents and RAG intelligence, empowering field teams, business leads, and operations managers. ",
-  image: ClairOps,
-  github: "https://github.com/Fouad-Smaoui/ClairOps",
-  demo: "https://clairopsapp.vercel.app/",
+    "As Founding Engineer, Orchestrated a RAG-based AI solution to transform unstructured documentation into industrialized operational procedures, improving accessibility and accelerating adoption by business teams. ",
+  image: DocToSOP,
+  github: "https://github.com/Fouad-Smaoui/DocToSOP",
+  demo: "https://doc-to-sop.vercel.app/",
 };
 const project2: Types.Project = {
   title: "OrcheStudio",
   techStack: ["Python", "ONNX","LLMs"],
   description:
-    "Automated end-to-end business operations by deploying AI agents, streamlining multimedia production pipelines, enhancing efficiency and reducing manual workload. ",
+    "Automated end-to-end video creation pipeline by deploying AI agents, transforming simple ideas into fully generated videos, significantly reducing production time and costs. ",
   image: OrcheStudio,
-  github: "https://github.com/Fouad-Smaoui/OrchestStudio",
-  demo: "https://www.youtube.com/@InnovationUnburied",
+  github: "https://github.com/Fouad-Smaoui/OrcheStudio",
+  demo: "https://orche-studio.vercel.app/",
 };
 const project3: Types.Project = {
   title: "Drone Precision Landing System",
@@ -56,7 +57,7 @@ const project4: Types.Project = {
     "In my vision of the future, robots aren’t just tools, they’re intelligent collaborators that transform industries through the power of physical AI, and it’s the future I’m shaping.This revolutionary mobile manipulator grows smarter through reinforcement learning, improving its efficiency in object manipulation, navigation, and assembly. It merges ROS2, physical AI, and swarm robotics, it’s part of a network of robots that work together, share data, and adapt to their environment.",
   image: MobileManipulator,
   github: "https://github.com/Fouad-Smaoui/Mobile-Manipulator-Robot",
-  demo: "https://github.com/Fouad-Smaoui/Mobile-Manipulator-Robot",
+  demo: MobileManipulatorDemo,
 };
 const project5: Types.Project = {
   title: "ORentit",
@@ -87,13 +88,13 @@ const project7: Types.Project = {
 };
 
 const project8: Types.Project = {
-  title: "TinySight",
+  title: "EdgeVisionAI",
   techStack: ["Python", "OpenCV", "C++"],
   description:
     "Created a next-generation, customizable solution combining facial detection, virtual try-on, and facial landmark tracking to deliver innovative robotic vision across diverse applications.",
   image: VirtualTryOn,
   github: "https://github.com/Fouad-Smaoui/TinyML-Driven-Embedded-AI-Vision",
-  demo: "https://github.com/Fouad-Smaoui/TinyML-Driven-Embedded-AI-Vision",
+  demo: "https://frontend-xi-seven-16.vercel.app/",
 };
 
 
