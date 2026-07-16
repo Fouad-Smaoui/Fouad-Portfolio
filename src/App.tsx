@@ -14,7 +14,6 @@ import VirtualTryOn from "./assets/virtualtryon.webp";
 import Drone from "./assets/Drone.webp";
 import OrcheStudio from "./assets/OrcheStudio.png";
 import DocToSOP from "./assets/DOCToSOP.png";
-import MobileManipulatorDemo from "./assets/mobile_manipulator_demo.gif";
 
 // import comingSoonUrl from "./assets/comingSoon.png";
 
@@ -57,7 +56,7 @@ const project4: Types.Project = {
     "In my vision of the future, robots aren’t just tools, they’re intelligent collaborators that transform industries through the power of physical AI, and it’s the future I’m shaping.This revolutionary mobile manipulator grows smarter through reinforcement learning, improving its efficiency in object manipulation, navigation, and assembly. It merges ROS2, physical AI, and swarm robotics, it’s part of a network of robots that work together, share data, and adapt to their environment.",
   image: MobileManipulator,
   github: "https://github.com/Fouad-Smaoui/Mobile-Manipulator-Robot",
-  demo: MobileManipulatorDemo,
+  demo: "https://drive.google.com/file/d/1hLgsHYg0U-DUGKJXViCTzEGHLUu_DLyA/view?usp=sharing",
 };
 const project5: Types.Project = {
   title: "ORentit",
